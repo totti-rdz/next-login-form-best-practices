@@ -28,7 +28,7 @@ export default function Home() {
 
           <button
             type="submit"
-            className="w-full rounded-md bg-accent py-3 font-semibold text-white hover:bg-accent/90 focus:outline-none focus:ring-2 focus:ring-accent"
+            className="w-full rounded-md bg-accent py-3 font-semibold text-white outline-2 outline-offset-4 outline-accent hover:bg-accent/90 focus:bg-accent/90 focus:outline"
           >
             Log In
           </button>
