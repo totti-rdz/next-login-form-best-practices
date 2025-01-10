@@ -1,3 +1,4 @@
+import Button from '@/components/Button';
 import Input from '@/components/Input';
 
 export default function Home() {
@@ -26,12 +27,7 @@ export default function Home() {
             />
           </div>
 
-          <button
-            type="submit"
-            className="w-full rounded-md bg-accent py-3 font-semibold text-white outline-2 outline-offset-4 outline-accent hover:bg-accent/90 focus:bg-accent/90 focus:outline"
-          >
-            Log In
-          </button>
+          <Button type="submit">Log In</Button>
 
           <div className="mt-4 text-center">
             <a href="#" className="text-sm text-accent hover:underline">
