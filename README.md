@@ -1,6 +1,6 @@
 # Login Form Best Practices
 
-This project should be an example and a showcase for best practices for an accessible login form, which should keep its functionality and accessibility even without javascript, but javascript should enhance the 
+This project should be an example and a showcase for best practices for an accessible login form, which should keep its functionality and accessibility even without javascript, but javascript should enhance the
 user experience e.g. by dynamically updating the password requirements field as the user types, providing real-time feedback on password strength.
 
 Next.js was used to be able to render the form server-side and have an api where the form data could be send to and validated.

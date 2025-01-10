@@ -1,12 +1,12 @@
-import Input from "@/components/Input";
+import Input from '@/components/Input';
 
 export default function Home() {
   return (
-    <div className="flex-1 bg-background flex flex-col items-center">
-      <h1 className="text-4xl font-bold text-accent mt-10 mb-10">Willkommen</h1>
-      <div className="w-full max-w-md p-8 rounded-lg">
+    <div className="flex flex-1 flex-col items-center bg-background">
+      <h1 className="mb-10 mt-10 text-4xl font-bold text-accent">Willkommen</h1>
+      <div className="w-full max-w-md rounded-lg p-8">
         <form>
-          <h2 className="text-2xl font-semibold mb-8">Anmelden</h2>
+          <h2 className="mb-8 text-2xl font-semibold">Anmelden</h2>
           <div className="mb-6">
             <Input
               label="Username"
@@ -28,7 +28,7 @@ export default function Home() {
 
           <button
             type="submit"
-            className="w-full py-3 bg-accent text-white font-semibold rounded-md hover:bg-accent/90 focus:outline-none focus:ring-2 focus:ring-accent"
+            className="w-full rounded-md bg-accent py-3 font-semibold text-white hover:bg-accent/90 focus:outline-none focus:ring-2 focus:ring-accent"
           >
             Log In
           </button>
