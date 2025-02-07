@@ -12,6 +12,7 @@ But the login form should be usable in any React project.
 - [ ] Show form input errors using CSS only
 - [ ] Display password requirements
 - [ ] Use progressive enhancement to visually indicate which password requirements are met and which are not.
+- [ ] Automatic testing of accessibility features
 
 ## Getting Started
 
